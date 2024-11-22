@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -14,6 +17,15 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+}
+
+.navbar-nav .nav-link {
+  color: #FFF8E1; /* Cor inicial */
+  transition: color 0.3s ease; /* Transição suave */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFD700; /* Cor ao passar o mouse */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -160,6 +172,8 @@ a.secondary {
     justify-content: center;
   }
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   .logo {
